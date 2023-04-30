@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.topbar{
+    position: sticky;
+    top: 0;
+    align-content: center;
+    background-color: white;
+   
+    padding: 20px;
+    z-index: 999;
+}
+
+::selection {
+   background-color: rgba(113, 141, 141, 0.127);  
+  }
+
+.wrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    justify-content: start;
+}
+
+.logo{
+    font-size: 28px;
+    color: teal;
+    margin: 10px 0px 0px 40px;
+    font-weight: 900;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content:end;
+    gap: 20px;
+    margin: 10px 40px 0px 0px;
+    align-items: center;
+  
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.Pimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.LObutton{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.token{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}

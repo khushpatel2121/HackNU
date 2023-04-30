@@ -1,0 +1,62 @@
+.Popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    position: absolute;
+    top: 70%;
+    right: 40%;
+    background-color: white;
+}
+
+.WPopup{
+    height: auto;
+    width: 500px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.content{
+ 
+    padding: 20px;
+    width: 80%;
+}
+
+.edit{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.icons{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.textbox{
+    margin: 10px;
+    font-family: "Lora", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+ 
+    border-bottom: 1px solid lightgray;
+  width: 100%;
+  outline: none;
+  }
+  .singlePostTitleInput:focus{
+      outline:none,
+  }

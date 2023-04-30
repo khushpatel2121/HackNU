@@ -1,0 +1,47 @@
+.Register{
+    flex:4;
+    display: flex;
+    position: relative;
+    justify-content:center;
+    align-items:center;
+    top: 90px;
+}
+
+.RWrapper{
+    position:absolute;
+    top: 50%;
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.RForm{
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Rinput{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.Rbutton{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
